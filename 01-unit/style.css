@@ -28,12 +28,14 @@ p{
 }
   
 div.profile{
-    width: 100px;
-    height: 100px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
     position: absolute;
-    top: 50px;
-    left:80vw;
+    top: 30px;
+    left:60vw;
     border:2px solid #2c5fa8;
+    border-radius: 50%;
 }
 
 aside{
@@ -43,4 +45,5 @@ aside{
 footer{
   position:absolute;
   bottom: 5px;
+  left: 90vw;
 }
