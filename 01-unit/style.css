@@ -1,0 +1,46 @@
+body {
+    font-family: 'Open-Sans';
+    background-image: url("assets/bckgrnd.png"); 
+    background-repeat: repeat-x repeat-y;
+  }
+
+nav{
+   Position: static;
+}
+
+h1{
+  font-family: 'Montserrat';
+  text-align: left;
+}
+
+h2{
+  font-family: 'Montserrat';
+}
+
+li{
+  float: left;
+  padding: 10px;
+  list-style-type: none;
+}
+
+p{
+  position:relative
+}
+  
+div.profile{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left:80vw;
+    border:2px solid #2c5fa8;
+}
+
+aside{
+  background-color: rgb(150,150,150,.6);
+}
+
+footer{
+  position:absolute;
+  bottom: 5px;
+}
